@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo do Pedido</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: white;
+            max-width: 400px; /* Reduzido de 600px para 400px */
+            width: 100%;
+            padding: 15px; /* Reduzido para ocupar menos espaço */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 20px; /* Reduzi o tamanho da fonte */
+            margin-bottom: 15px; /* Menor espaçamento abaixo do título */
+        }
+        .pedido {
+            background-color: #f9f9f9;
+            padding: 10px; /* Reduzido o padding */
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            margin-bottom: 15px; /* Menor espaçamento */
+        }
+        .pedido p {
+            font-size: 16px; /* Tamanho de fonte um pouco menor */
+            line-height: 1.4; /* Ajustei o espaçamento de linha */
+            color: #555;
+        }
+        .pedido p strong {
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            margin-top: 15px; /* Reduzi o espaçamento */
+            font-size: 14px;
+            color: #999;
+        }
+        .botao-voltar {
+            display: inline-block;
+            padding: 8px 16px; /* Reduzi o tamanho do botão */
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 14px; /* Tamanho de fonte menor no botão */
+            transition: background-color 0.3s ease;
+        }
+        .botao-voltar:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Resumo do Pedido</h1>
+        <div class="pedido" id="resumoPedido">
+            <!-- Informações do pedido serão inseridas aqui -->
+        </div>
+        <footer>
+            <a href="index.html" class="botao-voltar">Voltar ao Cardápio</a>
+        </footer>
+    </div>
+
+    <script>
+        // Função para recuperar parâmetros da URL
+        function getQueryParams() {
+            let params = new URLSearchParams(window.location.search);
+            return {
+                pedido: decodeURIComponent(params.get('pedido') || '')
+            };
+        }
+
+        // Função para exibir os dados do pedido
+        function exibirPedido() {
+            let params = getQueryParams();
+            let pedidoContainer = document.getElementById('resumoPedido');
+
+            if (params.pedido) {
+                // Exibe o texto do pedido no formato de card
+                pedidoContainer.innerHTML = `<p><strong>Pedido:</strong> ${params.pedido}</p>`;
+            } else {
+                pedidoContainer.innerHTML = `<p>Nenhum pedido encontrado.</p>`;
+            }
+        }
+
+        // Chama a função ao carregar a página
+        window.onload = exibirPedido;
+    </script>
+
+</body>
+</html>
