@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'PoppinsMedium';
-    src: url(../fonts/Poppins-Medium.otf);
+    src: url(./Poppins-Medium.otf);
 }
 
 @font-face {
     font-family: 'PoppinsRegular';
-    src: url(../fonts/Poppins-Regular.otf);
+    src: url(./Poppins-Regular.otf);
 }
 
 :root {
@@ -227,7 +227,7 @@ a.navbar-brand {
     margin-bottom: 30px;
 }
 .icon-acomp{
-    background-image: url(../img/icon_acomp.png);
+    background-image: url(./icon_acomp.png);
     background-size: cover;
     background-position: center 1px;
     background-repeat: no-repeat;
@@ -241,11 +241,11 @@ a.navbar-brand {
 
 }
 .active .icon-acomp {
-    background-image: url(../img/icon-acomp-active.png);
+    background-image: url(./icon-acomp-active.png);
 }
 
 .icon-creme{
-    background-image: url(../img/icon-hamburger.png);
+    background-image: url(./icon-hamburger.png);
     background-size: cover;
     background-position: center 1px;
     background-repeat: no-repeat;
@@ -257,12 +257,12 @@ a.navbar-brand {
 }
 
 .active .icon-creme {
-    background-image: url(../img/icon-hamburguer-active.png);
+    background-image: url(./icon-hamburguer-active.png);
 }
 
 
 .icon-vitamina{
-    background-image: url(../img/icon-⁫vitamina.png);
+    background-image: url(./icon-⁫vitamina.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -274,12 +274,12 @@ a.navbar-brand {
 }
 
 .active .icon-vitamina {
-    background-image: url(../img/icon-⁫vitamina-active.png);
+    background-image: url(./icon-⁫vitamina-active.png);
 }
 
 
 .icon-milkshake{
-    background-image: url(../img/icon_sobremesa-removebg-preview.png);
+    background-image: url(./icon_sobremesa-removebg-preview.png);
     background-size: cover;
     background-position: center 1px;
     background-repeat: no-repeat;
@@ -291,7 +291,7 @@ a.navbar-brand {
 }
 
 .active .icon-milkshake {
-    background-image: url(../img/icon_sobrem_active.png);
+    background-image: url(./icon_sobrem_active.png);
 }
 
 .cardapio {
