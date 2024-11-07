@@ -256,7 +256,7 @@ var ACRESCIMOS = {
             "price": 5.00
         },
         {
-            "id": "lemon peper",
+            "id": "Gelo",
             "name": "Gelo",
             "price": 5.00
         },
