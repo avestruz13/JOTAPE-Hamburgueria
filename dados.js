@@ -3,7 +3,7 @@ var MENU = {
 
         {
             "id": "batata",
-            "img": "./img/cardapio/acompanhamentos/batata.jpg",
+            "img": "./batata.jpg",
             "name": "Batata Frita 500g",
             "dsc": "Creme de Açaí 700ML",
             "isacrecimo": "false",
@@ -11,7 +11,7 @@ var MENU = {
         }, 
          {
             "id": "batatacheddar",
-            "img": "./img/cardapio/acompanhamentos/batata_cheddar.jpg",
+            "img": "./batata_cheddar.jpg",
             "name": "Batata c/ Cheddar 500g",
             "dsc": "Creme de Açaí 700ML",
             "isacrecimo": "false",
@@ -19,7 +19,7 @@ var MENU = {
         },
         {
             "id": "nuggets",
-            "img": "./img/cardapio/acompanhamentos/nuggets.jpg",
+            "img": "./nuggets.jpg",
             "name": "Nuggets 500g ",
             "dsc": "Creme de Açaí 700ML",
             "isacrecimo": "false",
@@ -27,7 +27,7 @@ var MENU = {
         },
         {
             "id": "onion",
-            "img": "./img/cardapio/acompanhamentos/onion.jpg",
+            "img": "./onion.jpg",
             "name": "Onion rings 500g",
             "dsc": "Creme de Açaí 700ML",
             "isacrecimo": "false",
@@ -46,7 +46,7 @@ var MENU = {
     "acai-creme": [
         {
             "id": "cheddar-burguer",
-            "img": "./img/cardapio/creme/cheddar burguer.jpg",
+            "img": "./cheddar burguer.jpg",
             "name": "Cheddar Burguer",
             "dsc": "Creme de Açaí 300ML",
             "isacrecimo": "true",
@@ -55,7 +55,7 @@ var MENU = {
         },
         {
             "id": "chessburguer",
-            "img": "./img/cardapio/creme/chessburguer.jpg",
+            "img": "./chessburguer.jpg",
             "name": "Chessburguer ",
             "dsc": "Creme de Açaí 300ML",
             "isacrecimo": "true",
@@ -64,7 +64,7 @@ var MENU = {
         },
         {
             "id": "salada-burguer",
-            "img": "./img/cardapio/creme/salada burguer.jpg",
+            "img": "./salada burguer.jpg",
             "name": "Salada Burguer",
             "dsc": "Creme de Açaí 300ML",
             "isacrecimo": "true",
@@ -73,7 +73,7 @@ var MENU = {
         },
         {
             "id": "bacon-burguer",
-            "img": "./img/cardapio/creme/bacon burguer.jpg",
+            "img": "./bacon burguer.jpg",
             "name": "Bacon Burguer",
             "dsc": "Creme de Açaí 300ML",
             "isacrecimo": "true",
@@ -85,14 +85,14 @@ var MENU = {
     "acai-vitamina": [
         {
             "id": "milkshake",
-            "img": "./img/cardapio/vitamina/milkshake.jpeg",
+            "img": "./milkshake.jpeg",
             "name": "Milk Shake 300ML",
             "dsc": "Vitamina de Açai 300ML",
             "price": 5.00
         },
         {
             "id": "h2o",
-            "img": "./img/cardapio/vitamina/h2o.jpg",
+            "img": "./h2o.jpg",
             "name": "H2O 500ML",
             "dsc": "Vitamina de Açai 300ML",
             "isbebida": "false",
@@ -100,7 +100,7 @@ var MENU = {
         },
         {
             "id": "coca-cola",
-            "img": "./img/cardapio/vitamina/cocacola.jpg",
+            "img": "./cocacola.jpg",
             "name": "Coca-Cola 350ML",
             "dsc": "Vitamina de Açai 300ML",
             "isbebida": "false",
@@ -108,7 +108,7 @@ var MENU = {
         },
         {
             "id": "suco-laranja",
-            "img": "./img/cardapio/vitamina/laranja.jpg",
+            "img": "./laranja.jpg",
             "name": "Suco de Laranja 300ML",
             "dsc": "Vitamina de Açai 300ML",
             "isbebida": "false",
@@ -119,7 +119,7 @@ var MENU = {
     "milk-shake": [
         {
             "id": "brownie",
-            "img": "./img/cardapio/mikshake/brownie.jpg",
+            "img": "./brownie.jpg",
             "name": "Brownie ",
             "dsc": "Milk-Shake 300ML",
             "isacrecimo": "false",
@@ -127,7 +127,7 @@ var MENU = {
         },
         {
             "id": "cookie",
-            "img": "./img/cardapio/mikshake/cookie.jpg",
+            "img": "./cookie.jpg",
             "name": "Cookie c/ Chocolate",
             "dsc": "Cookie com gotas de chocolate ",
             "isacrecimo": "false",
@@ -135,7 +135,7 @@ var MENU = {
         },
         {
             "id": "minipudim",
-            "img": "./img/cardapio/mikshake/pudim.jpg",
+            "img": "./pudim.jpg",
             "name": "Mini Pudim",
             "dsc": "Milk-Shake 700ML",
             "isacrecimo": "false",
@@ -143,7 +143,7 @@ var MENU = {
         },
         {
             "id": "sorvete",
-            "img": "./img/cardapio/mikshake/sorvete.jpg",
+            "img": "./sorvete.jpg",
             "name": "Sorvete",
             "dsc": "Milk-Shake 700ML",
             "isacrecimo": "false",
