@@ -245,7 +245,21 @@ var ACRESCIMOS = {
       
     ],
     "acrescimos-simples-comum": [
-        
+        {
+            "id": "Limão",
+            "name": "Limão",
+            "price": 5.00
+        },
+        {
+            "id": "Limão Espremido",
+            "name": "Limão Espremido",
+            "price": 5.00
+        },
+        {
+            "id": "Gelo",
+            "name": "Gelo",
+            "price": 5.00
+        },
       
     ],
    
