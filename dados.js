@@ -245,21 +245,7 @@ var ACRESCIMOS = {
       
     ],
     "acrescimos-simples-comum": [
-        {
-            "id": "sal",
-            "name": "sal",
-            "price": 5.00
-        },
-        {
-            "id": "oregano",
-            "name": "oregano",
-            "price": 5.00
-        },
-        {
-            "id": "lemon peper",
-            "name": "lemon peper",
-            "price": 5.00
-        },
+        
       
     ],
    
